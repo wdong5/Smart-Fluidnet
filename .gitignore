@@ -2,10 +2,10 @@
 .git
 
 
-./data/datasets/output_current_model_sphere/tr
-./data/datasets/output_current_model_sphere/te
-./data/models
-./data/MLP_model
+data/datasets/output_current_model_sphere/tr/*
+data/datasets/output_current_model_sphere/te/*
+data/models/*
+data/MLP_model/*
 
 # But not these files...
 # !.gitignore
