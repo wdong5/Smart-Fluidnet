@@ -1,0 +1,8 @@
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lib/libtfluids.so
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/init.lua
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/flags_to_occupancy.lua
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/set_wall_bcs.lua
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/test_tfluids.lua
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/velocity_divergence.lua
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/velocity_update.lua
+/home/wenbobao/torch/install/lib/luarocks/rocks/tfluids/1-00/lua/tfluids/volumetric_up_sampling_nearest.lua

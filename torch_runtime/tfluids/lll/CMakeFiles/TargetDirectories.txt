@@ -1,0 +1,7 @@
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/edit_cache.dir
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/rebuild_cache.dir
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/list_install_components.dir
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/install.dir
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/install/local.dir
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/install/strip.dir
+/tmp4/wenbobao_data/FluidNet/torch/tfluids/build/CMakeFiles/tfluids.dir
