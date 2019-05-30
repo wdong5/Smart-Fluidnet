@@ -62,7 +62,7 @@ RUNNING TORCH7 TRAINING
 
 We assume that Torch7 is installed, otherwise follow the instructions here. We use the standard distro with the cuda SDK for cutorch and cunn and cudnn.
 
-After install torch, compile tfluids: this is our custom CUDA & C++ library that implements a large number of the modules used in the paper:
+After install torch, compile tfluids:
 ```
 sudo apt-get install freeglut3-dev
 sudo apt-get install libxmu-dev libxi-dev
