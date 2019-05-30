@@ -36,8 +36,6 @@ cd FluidNet/voxelizer
 chmod u+x binvox
 python generate_binvox_files.py
 ```
-
-## Step3: generating training data
 Install matlabnoise (https://github.com/jonathantompson/matlabnoise) to the SAME path that FluidNet is in. i.e. the directory structure should be:
 ```
 /path/to/FluidNet/
@@ -58,4 +56,21 @@ Now you're ready to generate the training data. Make sure the directory data/dat
 cd FluidNet/manta/build
 ./manta ../scenes/_trainingData.py --dim 2 --addModelGeometry True --addSphereGeometry True
 ```
+## Step3: generating models
 
+RUNNING TORCH7 TRAINING
+
+We assume that Torch7 is installed, otherwise follow the instructions here. We use the standard distro with the cuda SDK for cutorch and cunn and cudnn.
+
+After install torch, compile tfluids: this is our custom CUDA & C++ library that implements a large number of the modules used in the paper:
+```
+sudo apt-get install freeglut3-dev
+sudo apt-get install libxmu-dev libxi-dev
+cd FluidNet/torch/tfluids
+luarocks make tfluids-1-00.rockspec
+```
+
+Note: some users are reporting that you need to explicitly install findCUDA for tfluids to compile properly with CUDA 7.5 and above.
+```
+luarocks install findCUDA
+```
