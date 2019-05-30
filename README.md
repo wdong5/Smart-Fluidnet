@@ -53,12 +53,7 @@ sh compile_python3.5_unix.sh
 sudo apt-get install python3-matplotlib
 python3.5 test_python.py
 ```
-Now you're ready to generate the training data. Make sure the directory data/datasets/output_current exists. For the 3D training data run:
-```
-cd FluidNet/manta/build
-./manta ../scenes/_trainingData.py --dim 3 --addModelGeometry True --addSphereGeometry True
-```
-For the 2D data run:
+Now you're ready to generate the training data. Make sure the directory data/datasets/output_current exists. 
 ```
 cd FluidNet/manta/build
 ./manta ../scenes/_trainingData.py --dim 2 --addModelGeometry True --addSphereGeometry True
