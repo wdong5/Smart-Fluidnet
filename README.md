@@ -37,4 +37,30 @@ chmod u+x binvox
 python generate_binvox_files.py
 ```
 
+## Step3: generating training data
+Install matlabnoise (https://github.com/jonathantompson/matlabnoise) to the SAME path that FluidNet is in. i.e. the directory structure should be:
+```
+/path/to/FluidNet/
+/path/to/matlabnoise/
+```
+To install matlabnoise (with python bindings):
+```
+sudo apt-get install python3.5-dev
+sudo apt-get install swig
+git clone git@github.com:jonathantompson/matlabnoise.git
+cd matlabnoise
+sh compile_python3.5_unix.sh
+sudo apt-get install python3-matplotlib
+python3.5 test_python.py
+```
+Now you're ready to generate the training data. Make sure the directory data/datasets/output_current exists. For the 3D training data run:
+```
+cd FluidNet/manta/build
+./manta ../scenes/_trainingData.py --dim 3 --addModelGeometry True --addSphereGeometry True
+```
+For the 2D data run:
+```
+cd FluidNet/manta/build
+./manta ../scenes/_trainingData.py --dim 2 --addModelGeometry True --addSphereGeometry True
+```
 
