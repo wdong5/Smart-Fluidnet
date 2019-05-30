@@ -31,15 +31,10 @@ wget https://www.dropbox.com/sh/5f3t9abmzu8fbfx/AAAkzW9JkkDshyzuFV0fAIL3a/bunny.
 ```
 Next we use the binvox library (http://www.patrickmin.com/binvox/) to create voxelized representations of the NTU models. Download the executable for your platform and put the binvox executable file in FluidNet/voxelizer. Then run our script:
 
+```
 cd FluidNet/voxelizer
 chmod u+x binvox
 python generate_binvox_files.py
-Note: some users have reported that they need to install lib3ds-1-3:
+```
 
-sudo apt-get install lib3ds-1-3
-OPTIONAL: You can view the output by using the viewvox utility (http://www.patrickmin.com/viewvox/). Put the viewvox executable in the FluidNet/voxelizer/voxels directory, then:
-
-cd FluidNet/voxelizer/voxels
-chmod u+x viewvox
-./viewvox -ki bunny.capped_32.binvox
 
