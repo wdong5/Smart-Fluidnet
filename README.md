@@ -84,10 +84,9 @@ luarocks make luagl-1-02.rockspec
 ```
 
 ## Step4: Running the Smart-Fluidnet
-Dowload our trained MLP models and the model candidates:
-```
-./download_models.sh
-```
+Dowload our trained MLP models from [here](https://drive.google.com/file/d/1PPRomGeb9UmyHw5pjYMmYcxM4jX8ETSU/view), extract and save to `data/MLP_models`.
+
+Download the model candidates from [here](https://drive.google.com/file/d/1BToJpQZUMfIYboyrU9T2824_qzguiV2e/view?usp=sharing), extract and save to `data/models`.
 
 Run the script:
 ```
