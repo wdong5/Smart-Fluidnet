@@ -17,7 +17,7 @@ sudo apt-get install doxygen libglu1-mesa-dev mesa-common-dev qtdeclarative5-dev
 cmake .. -DGUI='OFF' 
 make -j8
 ```
-## Step 2: generating input problems
+## Step 2: Generating input problems
 
 We use a subset of the NTU 3D Model Database models (http://3d.csie.ntu.edu.tw/~dynamic/database/). Please download the model files:
 ```
@@ -56,7 +56,7 @@ Now you're ready to generate the training data. Make sure the directory data/dat
 cd FluidNet/manta/build
 ./manta ../scenes/_trainingData.py --dim 2 --addModelGeometry True --addSphereGeometry True
 ```
-## Step3: generating models
+## Step3: Compiling the dependencies
 
 RUNNING TORCH7 TRAINING
 
