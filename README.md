@@ -58,8 +58,6 @@ cd FluidNet/manta/build
 ```
 ## Step3: Compiling the dependencies
 
-RUNNING TORCH7 TRAINING
-
 We assume that Torch7 is installed, otherwise follow the instructions here. We use the standard distro with the cuda SDK for cutorch and cunn and cudnn.
 
 After install torch, compile tfluids:
