@@ -83,8 +83,8 @@ cd LuaGL
 luarocks make luagl-1-02.rockspec
 ```
 
-##Step4: Running the Smart-Fluidnet
-Dowload our trained models:
+## Step4: Running the Smart-Fluidnet
+Dowload our trained MLP models and the model candidates:
 ```
 ./download_models.sh
 ```
