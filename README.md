@@ -84,10 +84,13 @@ luarocks make luagl-1-02.rockspec
 ```
 
 ##Step4: Running the Smart-Fluidnet
+Dowload our trained models:
+```
+./download_models.sh
+```
 
 Run the script:
 ```
 ./runtime_algorithm.sh
 ```
-
 
