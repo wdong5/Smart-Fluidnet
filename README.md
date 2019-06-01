@@ -77,7 +77,6 @@ luarocks install findCUDA
 
 To run the interactive demo firstly compile LuaGL:
 
-+
 ```
 git clone git@github.com:kristofe/LuaGL.git
 cd LuaGL
