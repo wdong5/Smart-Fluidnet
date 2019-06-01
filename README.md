@@ -1,5 +1,5 @@
 # Smart-Fluidnet
-Smart-Fluidnet is a framework that automates model generation for fluid dynamic simulation. It is developed by PASA lab (http://pasa.ucmerced.edu/) at University of California, Merced. Smart-Fluidnet provides flexibility and generalization to automatically search best neural network(NN) models for different input problems.
+Smart-Fluidnet is a framework that automates model generation for fluid dynamic simulation. It is developed by PASA lab (http://pasa.ucmerced.edu/) at University of California, Merced. Smart-Fluidnet provides flexibility and generalization to automatically search the best neural network(NN) models for different input problems.
 
 
 ## Step 1: Installing mantaflow 
@@ -74,3 +74,21 @@ Note: some users are reporting that you need to explicitly install findCUDA for 
 ```
 luarocks install findCUDA
 ```
+
+To run the interactive demo firstly compile LuaGL:
+
++
+```
+git clone git@github.com:kristofe/LuaGL.git
+cd LuaGL
+luarocks make luagl-1-02.rockspec
+```
+
+##Step4: Running the Smart-Fluidnet
+
+Run the script:
+```
+./runtime_algorithm.sh
+```
+
+
